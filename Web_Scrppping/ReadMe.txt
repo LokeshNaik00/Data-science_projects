@@ -1,0 +1,1 @@
+## Scraping the "All Time Worldwide Box Office" by parsing the information from this website in the form of Tabular data.
