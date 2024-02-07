@@ -1,0 +1,1003 @@
+Query
+SHOW GLOBAL STATUS
+SHOW GLOBAL STATUS
+SELECT * FROM  mysql.general_log
+SELECT st.* FROM performance_schema.events_statements_current st JOIN performance_schema.threads thr ON thr.thread_id = st.thread_id WHERE thr.processlist_id = 117
+SELECT st.* FROM performance_schema.events_stages_history_long st WHERE st.nesting_event_id = 55
+SELECT st.* FROM performance_schema.events_waits_history_long st WHERE st.nesting_event_id = 55
+SHOW INDEX FROM `mysql`.`general_log`
+SHOW GLOBAL STATUS
+SHOW GLOBAL STATUS
+SHOW GLOBAL STATUS
+SHOW GLOBAL STATUS
+SHOW GLOBAL STATUS
+SHOW GLOBAL STATUS
+SHOW GLOBAL STATUS
+SHOW GLOBAL STATUS
+SHOW GLOBAL STATUS
+SHOW GLOBAL STATUS
+SHOW GLOBAL STATUS
+SHOW GLOBAL STATUS
+SHOW GLOBAL STATUS
+SHOW GLOBAL STATUS
+SHOW GLOBAL STATUS
+SHOW GLOBAL STATUS
+SHOW GLOBAL STATUS
+SHOW GLOBAL STATUS
+SHOW GLOBAL STATUS
+SHOW GLOBAL STATUS
+SHOW GLOBAL STATUS
+SHOW GLOBAL STATUS
+SHOW GLOBAL STATUS
+SHOW GLOBAL STATUS
+SHOW GLOBAL STATUS
+SHOW GLOBAL STATUS
+SHOW GLOBAL STATUS
+SHOW GLOBAL STATUS
+SHOW GLOBAL STATUS
+SHOW GLOBAL STATUS
+SHOW GLOBAL STATUS
+SHOW GLOBAL STATUS
+SHOW GLOBAL STATUS
+SHOW GLOBAL STATUS
+SHOW GLOBAL STATUS
+SHOW GLOBAL STATUS
+SHOW GLOBAL STATUS
+SHOW GLOBAL STATUS
+SHOW GLOBAL STATUS
+SHOW GLOBAL STATUS
+SHOW GLOBAL STATUS
+SHOW GLOBAL STATUS
+SHOW GLOBAL STATUS
+SHOW GLOBAL STATUS
+SHOW GLOBAL STATUS
+SHOW GLOBAL STATUS
+SHOW GLOBAL STATUS
+SHOW GLOBAL STATUS
+SHOW GLOBAL STATUS
+SHOW GLOBAL STATUS
+SHOW GLOBAL STATUS
+SET global general_log = 1
+SHOW GLOBAL STATUS
+SET global log_output = 'table'
+SET global general_log = 1
+SHOW GLOBAL STATUS
+SHOW GLOBAL STATUS
+SHOW GLOBAL STATUS
+SHOW GLOBAL STATUS
+SHOW GLOBAL STATUS
+SHOW GLOBAL STATUS
+SHOW GLOBAL STATUS
+SHOW GLOBAL STATUS
+SHOW GLOBAL STATUS
+SHOW GLOBAL STATUS
+SHOW GLOBAL STATUS
+SHOW GLOBAL STATUS
+SHOW GLOBAL STATUS
+SHOW GLOBAL STATUS
+SHOW GLOBAL STATUS
+SET global general_log = 1
+SET global log_output = 'table'
+SHOW GLOBAL STATUS
+SET global general_log = 1
+SHOW GLOBAL STATUS
+SHOW GLOBAL STATUS
+SHOW GLOBAL STATUS
+SHOW GLOBAL STATUS
+SHOW GLOBAL STATUS
+SELECT * FROM mysql.general_log
+SELECT st.* FROM performance_schema.events_statements_current st JOIN performance_schema.threads thr ON thr.thread_id = st.thread_id WHERE thr.processlist_id = 117
+SELECT st.* FROM performance_schema.events_stages_history_long st WHERE st.nesting_event_id = 69
+SELECT st.* FROM performance_schema.events_waits_history_long st WHERE st.nesting_event_id = 69
+SHOW INDEX FROM `mysql`.`general_log`
+SHOW GLOBAL STATUS
+SHOW GLOBAL STATUS
+SHOW GLOBAL STATUS
+SHOW GLOBAL STATUS
+SHOW GLOBAL STATUS
+SHOW GLOBAL STATUS
+SHOW GLOBAL STATUS
+"SELECT *, CAST(argument as char(100)) as 'cast_arg'
+FROM mysql.general_log"
+SELECT st.* FROM performance_schema.events_statements_current st JOIN performance_schema.threads thr ON thr.thread_id = st.thread_id WHERE thr.processlist_id = 117
+SELECT st.* FROM performance_schema.events_stages_history_long st WHERE st.nesting_event_id = 72
+SELECT st.* FROM performance_schema.events_waits_history_long st WHERE st.nesting_event_id = 72
+SHOW GLOBAL STATUS
+SHOW GLOBAL STATUS
+SHOW GLOBAL STATUS
+SHOW GLOBAL STATUS
+SHOW GLOBAL STATUS
+SHOW GLOBAL STATUS
+SHOW GLOBAL STATUS
+SHOW GLOBAL STATUS
+SHOW GLOBAL STATUS
+SHOW GLOBAL STATUS
+SET global log_output = 'file'
+SHOW GLOBAL STATUS
+SET GLOBAL general_log = 'ON'
+SHOW GLOBAL STATUS
+SELECT * FROM  mysql.general_log
+SELECT st.* FROM performance_schema.events_statements_current st JOIN performance_schema.threads thr ON thr.thread_id = st.thread_id WHERE thr.processlist_id = 117
+SELECT st.* FROM performance_schema.events_stages_history_long st WHERE st.nesting_event_id = 99260
+SELECT st.* FROM performance_schema.events_waits_history_long st WHERE st.nesting_event_id = 99260
+SHOW INDEX FROM `mysql`.`general_log`
+"SELECT CONVERT(argument USING utf8) AS text_column
+FROM mysql.general_log"
+SELECT st.* FROM performance_schema.events_statements_current st JOIN performance_schema.threads thr ON thr.thread_id = st.thread_id WHERE thr.processlist_id = 117
+SELECT st.* FROM performance_schema.events_stages_history_long st WHERE st.nesting_event_id = 99262
+SELECT st.* FROM performance_schema.events_waits_history_long st WHERE st.nesting_event_id = 99262
+SHOW GLOBAL STATUS
+SHOW GLOBAL STATUS
+SHOW GLOBAL STATUS
+SHOW GLOBAL STATUS
+SHOW GLOBAL STATUS
+
+
+use classicmodels
+SELECT DATABASE()
+"SELECT productCode, productName, productLine, productScale, productVendor FROM products LIMIT 1"
+SHOW INDEX FROM `classicmodels`.`products`
+"UPDATE orderdetails SET orderNumber = 80, productCode = 91, quantityOrdered = 31, priceEach = 14 WHERE quantityOrdered = 79 LIMIT 1"
+"UPDATE employees SET employeeNumber = 43, lastName = 56, firstName = 85, extension = 56, email = 65 WHERE lastName = 66 LIMIT 1"
+"UPDATE orders SET orderNumber = 68, orderDate = 81, requiredDate = 77, shippedDate = 92, status = 100 WHERE requiredDate = 99 LIMIT 1"
+"SELECT officeCode, city, phone, addressLine1, addressLine2, state, country, postalCode, territory FROM offices LIMIT 1"
+SHOW INDEX FROM `classicmodels`.`offices`
+"SELECT customerNumber, customerName, contactLastName, contactFirstName, phone FROM customers LIMIT 1"
+SHOW INDEX FROM `classicmodels`.`customers`
+"UPDATE payments SET customerNumber = 83, checkNumber = 86, paymentDate = 31, amount = 94 WHERE paymentDate = 34 LIMIT 1"
+"SELECT orderNumber, productCode, quantityOrdered, priceEach FROM orderdetails LIMIT 1"
+SHOW INDEX FROM `classicmodels`.`orderdetails`
+"UPDATE orderdetails SET orderNumber = 76, productCode = 12, quantityOrdered = 63, priceEach = 68 WHERE priceEach = 92 LIMIT 1"
+DELETE FROM products WHERE productScale = 17 LIMIT 1
+"UPDATE offices SET officeCode = 21, city = 36, phone = 56, addressLine1 = 14, addressLine2 = 15, state = 55, country = 40, postalCode = 44, territory = 55 WHERE country = 86 LIMIT 1"
+DELETE FROM customers WHERE contactLastName = 36 LIMIT 1
+"SELECT productCode, productName, productLine, productScale, productVendor FROM products LIMIT 1"
+SHOW INDEX FROM `classicmodels`.`products`
+"SELECT employeeNumber, lastName, firstName, extension, email FROM employees LIMIT 1"
+SHOW INDEX FROM `classicmodels`.`employees`
+"UPDATE customers SET customerNumber = 25, customerName = 71, contactLastName = 94, contactFirstName = 91, phone = 87 WHERE contactFirstName = 55 LIMIT 1"
+DELETE FROM products WHERE productName = 24 LIMIT 1
+"UPDATE products SET productCode = 60, productName = 22, productLine = 69, productScale = 78, productVendor = 10 WHERE productLine = 25 LIMIT 1"
+SHOW WARNINGS
+DELETE FROM products WHERE productName = 21 LIMIT 1
+"UPDATE employees SET employeeNumber = 7, lastName = 46, firstName = 98, extension = 17, email = 3 WHERE email = 86 LIMIT 1"
+"INSERT INTO customers (customerName, contactLastName, contactFirstName, phone) VALUES (78, 56, 57, 35)"
+"UPDATE productlines SET productLine = 22, textDescription = 30 WHERE productLine = 2 LIMIT 1"
+"UPDATE productlines SET productLine = 9, textDescription = 11 WHERE textDescription = 42 LIMIT 1"
+DELETE FROM productlines WHERE textDescription = 71 LIMIT 1
+"UPDATE customers SET customerNumber = 87, customerName = 24, contactLastName = 3, contactFirstName = 4, phone = 69 WHERE contactFirstName = 67 LIMIT 1"
+"UPDATE customers SET customerNumber = 70, customerName = 84, contactLastName = 84, contactFirstName = 52, phone = 21 WHERE contactLastName = 27 LIMIT 1"
+DELETE FROM employees WHERE extension = 25 LIMIT 1
+"INSERT INTO customers (customerName, contactLastName, contactFirstName, phone) VALUES (35, 87, 96, 99)"
+"SELECT productLine, textDescription FROM productlines LIMIT 1"
+SHOW INDEX FROM `classicmodels`.`productlines`
+"INSERT INTO employees (lastName, firstName, extension, email) VALUES (60, 3, 7, 78)"
+"UPDATE offices SET officeCode = 78, city = 39, phone = 66, addressLine1 = 67, addressLine2 = 74, state = 7, country = 96, postalCode = 56, territory = 72 WHERE addressLine1 = 14 LIMIT 1"
+"UPDATE orders SET orderNumber = 53, orderDate = 61, requiredDate = 52, shippedDate = 84, status = 22 WHERE shippedDate = 23 LIMIT 1"
+"UPDATE employees SET employeeNumber = 60, lastName = 72, firstName = 91, extension = 59, email = 85 WHERE lastName = 81 LIMIT 1"
+"INSERT INTO products (productName, productLine, productScale, productVendor) VALUES (97, 63, 60, 6)"
+"UPDATE offices SET officeCode = 45, city = 11, phone = 55, addressLine1 = 64, addressLine2 = 39, state = 59, country = 68, postalCode = 84, territory = 2 WHERE state = 20 LIMIT 1"
+"INSERT INTO orders (orderDate, requiredDate, shippedDate, status) VALUES (1, 93, 40, 98)"
+DELETE FROM orders WHERE status = 31 LIMIT 1
+"UPDATE orderdetails SET orderNumber = 46, productCode = 96, quantityOrdered = 29, priceEach = 98 WHERE quantityOrdered = 37 LIMIT 1"
+"SELECT officeCode, city, phone, addressLine1, addressLine2, state, country, postalCode, territory FROM offices LIMIT 1"
+SHOW INDEX FROM `classicmodels`.`offices`
+"SELECT productLine, textDescription FROM productlines LIMIT 1"
+SHOW INDEX FROM `classicmodels`.`productlines`
+"UPDATE payments SET customerNumber = 15, checkNumber = 93, paymentDate = 30, amount = 2 WHERE checkNumber = 90 LIMIT 1"
+"INSERT INTO offices (city, phone, addressLine1, addressLine2, state, country, postalCode, territory) VALUES (94, 100, 10, 91, 49, 64, 53, 82)"
+"SELECT productCode, productName, productLine, productScale, productVendor FROM products LIMIT 1"
+SHOW INDEX FROM `classicmodels`.`products`
+"SELECT productLine, textDescription FROM productlines LIMIT 1"
+SHOW INDEX FROM `classicmodels`.`productlines`
+"INSERT INTO customers (customerName, contactLastName, contactFirstName, phone) VALUES (14, 96, 52, 80)"
+"SELECT productLine, textDescription FROM productlines LIMIT 1"
+SHOW INDEX FROM `classicmodels`.`productlines`
+"UPDATE products SET productCode = 36, productName = 69, productLine = 51, productScale = 57, productVendor = 75 WHERE productScale = 72 LIMIT 1"
+"INSERT INTO orderdetails (productCode, quantityOrdered, priceEach) VALUES (30, 53, 6)"
+"SELECT employeeNumber, lastName, firstName, extension, email FROM employees LIMIT 1"
+SHOW INDEX FROM `classicmodels`.`employees`
+"UPDATE customers SET customerNumber = 52, customerName = 59, contactLastName = 56, contactFirstName = 7, phone = 16 WHERE customerNumber = 100 LIMIT 1"
+"UPDATE orders SET orderNumber = 28, orderDate = 55, requiredDate = 31, shippedDate = 58, status = 77 WHERE requiredDate = 86 LIMIT 1"
+DELETE FROM orderdetails WHERE orderNumber = 50 LIMIT 1
+DELETE FROM customers WHERE customerName = 93 LIMIT 1
+"INSERT INTO employees (lastName, firstName, extension, email) VALUES (45, 68, 48, 71)"
+"INSERT INTO customers (customerName, contactLastName, contactFirstName, phone) VALUES (63, 100, 100, 12)"
+"SELECT orderNumber, productCode, quantityOrdered, priceEach FROM orderdetails LIMIT 1"
+SHOW INDEX FROM `classicmodels`.`orderdetails`
+"INSERT INTO offices (city, phone, addressLine1, addressLine2, state, country, postalCode, territory) VALUES (39, 61, 56, 74, 50, 82, 100, 97)"
+INSERT INTO productlines (textDescription) VALUES (4)
+"UPDATE offices SET officeCode = 87, city = 61, phone = 1, addressLine1 = 38, addressLine2 = 90, state = 10, country = 44, postalCode = 31, territory = 65 WHERE phone = 62 LIMIT 1"
+DELETE FROM payments WHERE paymentDate = 5 LIMIT 1
+"INSERT INTO payments (checkNumber, paymentDate, amount) VALUES (17, 96, 18)"
+"UPDATE offices SET officeCode = 74, city = 15, phone = 80, addressLine1 = 79, addressLine2 = 52, state = 46, country = 68, postalCode = 28, territory = 48 WHERE country = 62 LIMIT 1"
+"SELECT officeCode, city, phone, addressLine1, addressLine2, state, country, postalCode, territory FROM offices LIMIT 1"
+SHOW INDEX FROM `classicmodels`.`offices`
+"UPDATE orders SET orderNumber = 70, orderDate = 64, requiredDate = 92, shippedDate = 74, status = 96 WHERE status = 100 LIMIT 1"
+"INSERT INTO orderdetails (productCode, quantityOrdered, priceEach) VALUES (21, 68, 91)"
+"INSERT INTO orders (orderDate, requiredDate, shippedDate, status) VALUES (52, 89, 70, 42)"
+"UPDATE products SET productCode = 55, productName = 85, productLine = 10, productScale = 90, productVendor = 86 WHERE productCode = 75 LIMIT 1"
+SHOW WARNINGS
+"SELECT orderNumber, orderDate, requiredDate, shippedDate, status FROM orders LIMIT 1"
+SHOW INDEX FROM `classicmodels`.`orders`
+"UPDATE productlines SET productLine = 16, textDescription = 65 WHERE textDescription = 46 LIMIT 1"
+"UPDATE offices SET officeCode = 12, city = 95, phone = 32, addressLine1 = 87, addressLine2 = 65, state = 96, country = 46, postalCode = 33, territory = 93 WHERE phone = 79 LIMIT 1"
+"INSERT INTO customers (customerName, contactLastName, contactFirstName, phone) VALUES (41, 98, 97, 79)"
+DELETE FROM products WHERE productLine = 43 LIMIT 1
+SHOW WARNINGS
+DELETE FROM offices WHERE territory = 27 LIMIT 1
+"UPDATE payments SET customerNumber = 59, checkNumber = 17, paymentDate = 98, amount = 70 WHERE checkNumber = 73 LIMIT 1"
+"INSERT INTO orders (orderDate, requiredDate, shippedDate, status) VALUES (33, 75, 31, 44)"
+"INSERT INTO employees (lastName, firstName, extension, email) VALUES (24, 41, 93, 64)"
+DELETE FROM payments WHERE paymentDate = 98 LIMIT 1
+"SELECT customerNumber, checkNumber, paymentDate, amount FROM payments LIMIT 1"
+SHOW INDEX FROM `classicmodels`.`payments`
+"INSERT INTO customers (customerName, contactLastName, contactFirstName, phone) VALUES (79, 45, 16, 19)"
+"UPDATE orderdetails SET orderNumber = 67, productCode = 74, quantityOrdered = 48, priceEach = 72 WHERE quantityOrdered = 69 LIMIT 1"
+DELETE FROM orderdetails WHERE productCode = 27 LIMIT 1
+DELETE FROM employees WHERE employeeNumber = 48 LIMIT 1
+"SELECT orderNumber, orderDate, requiredDate, shippedDate, status FROM orders LIMIT 1"
+SHOW INDEX FROM `classicmodels`.`orders`
+"SELECT orderNumber, orderDate, requiredDate, shippedDate, status FROM orders LIMIT 1"
+SHOW INDEX FROM `classicmodels`.`orders`
+"UPDATE orders SET orderNumber = 56, orderDate = 82, requiredDate = 77, shippedDate = 92, status = 14 WHERE orderNumber = 50 LIMIT 1"
+DELETE FROM employees WHERE extension = 42 LIMIT 1
+"INSERT INTO orders (orderDate, requiredDate, shippedDate, status) VALUES (8, 78, 61, 90)"
+DELETE FROM payments WHERE checkNumber = 9 LIMIT 1
+DELETE FROM payments WHERE checkNumber = 8 LIMIT 1
+DELETE FROM employees WHERE lastName = 40 LIMIT 1
+"UPDATE payments SET customerNumber = 9, checkNumber = 64, paymentDate = 91, amount = 11 WHERE amount = 64 LIMIT 1"
+"SELECT productCode, productName, productLine, productScale, productVendor FROM products LIMIT 1"
+SHOW INDEX FROM `classicmodels`.`products`
+"INSERT INTO orders (orderDate, requiredDate, shippedDate, status) VALUES (91, 2, 97, 51)"
+"INSERT INTO customers (customerName, contactLastName, contactFirstName, phone) VALUES (82, 8, 20, 36)"
+DELETE FROM products WHERE productScale = 40 LIMIT 1
+DELETE FROM orders WHERE requiredDate = 68 LIMIT 1
+"SELECT orderNumber, orderDate, requiredDate, shippedDate, status FROM orders LIMIT 1"
+SHOW INDEX FROM `classicmodels`.`orders`
+"SELECT orderNumber, productCode, quantityOrdered, priceEach FROM orderdetails LIMIT 1"
+SHOW INDEX FROM `classicmodels`.`orderdetails`
+DELETE FROM payments WHERE paymentDate = 94 LIMIT 1
+"INSERT INTO payments (checkNumber, paymentDate, amount) VALUES (19, 69, 25)"
+"UPDATE offices SET officeCode = 31, city = 34, phone = 39, addressLine1 = 69, addressLine2 = 88, state = 82, country = 81, postalCode = 16, territory = 25 WHERE addressLine1 = 85 LIMIT 1"
+"UPDATE offices SET officeCode = 62, city = 57, phone = 47, addressLine1 = 73, addressLine2 = 27, state = 37, country = 66, postalCode = 44, territory = 77 WHERE territory = 2 LIMIT 1"
+"INSERT INTO employees (lastName, firstName, extension, email) VALUES (55, 57, 78, 90)"
+"UPDATE customers SET customerNumber = 2, customerName = 76, contactLastName = 11, contactFirstName = 4, phone = 32 WHERE contactLastName = 63 LIMIT 1"
+"UPDATE productlines SET productLine = 88, textDescription = 80 WHERE productLine = 36 LIMIT 1"
+"INSERT INTO orderdetails (productCode, quantityOrdered, priceEach) VALUES (95, 60, 82)"
+DELETE FROM products WHERE productLine = 73 LIMIT 1
+SHOW WARNINGS
+"INSERT INTO orderdetails (productCode, quantityOrdered, priceEach) VALUES (39, 16, 39)"
+"UPDATE customers SET customerNumber = 22, customerName = 11, contactLastName = 53, contactFirstName = 30, phone = 9 WHERE contactFirstName = 64 LIMIT 1"
+DELETE FROM customers WHERE customerNumber = 66 LIMIT 1
+"INSERT INTO customers (customerName, contactLastName, contactFirstName, phone) VALUES (76, 10, 90, 14)"
+"SELECT orderNumber, orderDate, requiredDate, shippedDate, status FROM orders LIMIT 1"
+SHOW INDEX FROM `classicmodels`.`orders`
+"UPDATE orderdetails SET orderNumber = 78, productCode = 41, quantityOrdered = 61, priceEach = 83 WHERE priceEach = 22 LIMIT 1"
+"INSERT INTO orderdetails (productCode, quantityOrdered, priceEach) VALUES (63, 63, 66)"
+"SELECT productCode, productName, productLine, productScale, productVendor FROM products LIMIT 1"
+SHOW INDEX FROM `classicmodels`.`products`
+"SELECT employeeNumber, lastName, firstName, extension, email FROM employees LIMIT 1"
+SHOW INDEX FROM `classicmodels`.`employees`
+DELETE FROM customers WHERE contactFirstName = 65 LIMIT 1
+"UPDATE employees SET employeeNumber = 92, lastName = 41, firstName = 61, extension = 36, email = 61 WHERE firstName = 50 LIMIT 1"
+DELETE FROM employees WHERE lastName = 43 LIMIT 1
+"SELECT customerNumber, checkNumber, paymentDate, amount FROM payments LIMIT 1"
+SHOW INDEX FROM `classicmodels`.`payments`
+"INSERT INTO customers (customerName, contactLastName, contactFirstName, phone) VALUES (90, 49, 95, 22)"
+DELETE FROM payments WHERE customerNumber = 48 LIMIT 1
+"INSERT INTO employees (lastName, firstName, extension, email) VALUES (5, 6, 86, 19)"
+"INSERT INTO orders (orderDate, requiredDate, shippedDate, status) VALUES (29, 38, 68, 54)"
+"SELECT employeeNumber, lastName, firstName, extension, email FROM employees LIMIT 1"
+SHOW INDEX FROM `classicmodels`.`employees`
+"INSERT INTO offices (city, phone, addressLine1, addressLine2, state, country, postalCode, territory) VALUES (35, 95, 68, 23, 35, 44, 15, 78)"
+DELETE FROM orders WHERE orderNumber = 31 LIMIT 1
+"SELECT customerNumber, customerName, contactLastName, contactFirstName, phone FROM customers LIMIT 1"
+SHOW INDEX FROM `classicmodels`.`customers`
+DELETE FROM offices WHERE state = 5 LIMIT 1
+"INSERT INTO employees (lastName, firstName, extension, email) VALUES (34, 7, 71, 36)"
+"INSERT INTO customers (customerName, contactLastName, contactFirstName, phone) VALUES (77, 93, 2, 74)"
+"INSERT INTO employees (lastName, firstName, extension, email) VALUES (46, 13, 23, 13)"
+"UPDATE employees SET employeeNumber = 24, lastName = 59, firstName = 6, extension = 67, email = 32 WHERE employeeNumber = 79 LIMIT 1"
+INSERT INTO productlines (textDescription) VALUES (84)
+"UPDATE offices SET officeCode = 15, city = 78, phone = 54, addressLine1 = 66, addressLine2 = 45, state = 89, country = 35, postalCode = 8, territory = 85 WHERE phone = 47 LIMIT 1"
+"UPDATE productlines SET productLine = 23, textDescription = 11 WHERE productLine = 64 LIMIT 1"
+"SELECT customerNumber, customerName, contactLastName, contactFirstName, phone FROM customers LIMIT 1"
+SHOW INDEX FROM `classicmodels`.`customers`
+INSERT INTO productlines (textDescription) VALUES (33)
+"UPDATE productlines SET productLine = 85, textDescription = 66 WHERE textDescription = 27 LIMIT 1"
+DELETE FROM payments WHERE paymentDate = 39 LIMIT 1
+"SELECT employeeNumber, lastName, firstName, extension, email FROM employees LIMIT 1"
+SHOW INDEX FROM `classicmodels`.`employees`
+"INSERT INTO orderdetails (productCode, quantityOrdered, priceEach) VALUES (43, 70, 22)"
+INSERT INTO productlines (textDescription) VALUES (59)
+"SELECT officeCode, city, phone, addressLine1, addressLine2, state, country, postalCode, territory FROM offices LIMIT 1"
+SHOW INDEX FROM `classicmodels`.`offices`
+"UPDATE employees SET employeeNumber = 32, lastName = 78, firstName = 85, extension = 35, email = 30 WHERE extension = 32 LIMIT 1"
+"SELECT officeCode, city, phone, addressLine1, addressLine2, state, country, postalCode, territory FROM offices LIMIT 1"
+SHOW INDEX FROM `classicmodels`.`offices`
+DELETE FROM customers WHERE customerName = 74 LIMIT 1
+DELETE FROM offices WHERE postalCode = 1 LIMIT 1
+"UPDATE orders SET orderNumber = 55, orderDate = 73, requiredDate = 66, shippedDate = 77, status = 19 WHERE orderDate = 91 LIMIT 1"
+INSERT INTO productlines (textDescription) VALUES (26)
+DELETE FROM employees WHERE employeeNumber = 51 LIMIT 1
+DELETE FROM payments WHERE checkNumber = 43 LIMIT 1
+INSERT INTO productlines (textDescription) VALUES (29)
+"SELECT customerNumber, customerName, contactLastName, contactFirstName, phone FROM customers LIMIT 1"
+SHOW INDEX FROM `classicmodels`.`customers`
+DELETE FROM offices WHERE city = 56 LIMIT 1
+DELETE FROM orders WHERE orderNumber = 95 LIMIT 1
+"UPDATE orders SET orderNumber = 26, orderDate = 94, requiredDate = 57, shippedDate = 46, status = 70 WHERE status = 7 LIMIT 1"
+"SELECT customerNumber, checkNumber, paymentDate, amount FROM payments LIMIT 1"
+SHOW INDEX FROM `classicmodels`.`payments`
+"SELECT employeeNumber, lastName, firstName, extension, email FROM employees LIMIT 1"
+SHOW INDEX FROM `classicmodels`.`employees`
+"INSERT INTO orders (orderDate, requiredDate, shippedDate, status) VALUES (62, 13, 67, 85)"
+"INSERT INTO orders (orderDate, requiredDate, shippedDate, status) VALUES (92, 80, 96, 15)"
+"UPDATE orders SET orderNumber = 43, orderDate = 50, requiredDate = 43, shippedDate = 72, status = 7 WHERE shippedDate = 38 LIMIT 1"
+"INSERT INTO orders (orderDate, requiredDate, shippedDate, status) VALUES (59, 15, 15, 41)"
+DELETE FROM offices WHERE addressLine1 = 5 LIMIT 1
+"INSERT INTO products (productName, productLine, productScale, productVendor) VALUES (45, 88, 91, 11)"
+"SELECT employeeNumber, lastName, firstName, extension, email FROM employees LIMIT 1"
+SHOW INDEX FROM `classicmodels`.`employees`
+"SELECT officeCode, city, phone, addressLine1, addressLine2, state, country, postalCode, territory FROM offices LIMIT 1"
+SHOW INDEX FROM `classicmodels`.`offices`
+"UPDATE customers SET customerNumber = 10, customerName = 28, contactLastName = 74, contactFirstName = 45, phone = 13 WHERE customerName = 25 LIMIT 1"
+DELETE FROM payments WHERE checkNumber = 50 LIMIT 1
+INSERT INTO productlines (textDescription) VALUES (72)
+"SELECT customerNumber, customerName, contactLastName, contactFirstName, phone FROM customers LIMIT 1"
+SHOW INDEX FROM `classicmodels`.`customers`
+"SELECT orderNumber, productCode, quantityOrdered, priceEach FROM orderdetails LIMIT 1"
+SHOW INDEX FROM `classicmodels`.`orderdetails`
+"UPDATE products SET productCode = 67, productName = 64, productLine = 28, productScale = 29, productVendor = 64 WHERE productLine = 82 LIMIT 1"
+SHOW WARNINGS
+DELETE FROM customers WHERE customerName = 16 LIMIT 1
+DELETE FROM payments WHERE customerNumber = 79 LIMIT 1
+"SELECT officeCode, city, phone, addressLine1, addressLine2, state, country, postalCode, territory FROM offices LIMIT 1"
+SHOW INDEX FROM `classicmodels`.`offices`
+"INSERT INTO orderdetails (productCode, quantityOrdered, priceEach) VALUES (37, 48, 25)"
+INSERT INTO productlines (textDescription) VALUES (67)
+DELETE FROM orderdetails WHERE productCode = 34 LIMIT 1
+"UPDATE products SET productCode = 9, productName = 82, productLine = 96, productScale = 35, productVendor = 100 WHERE productLine = 65 LIMIT 1"
+SHOW WARNINGS
+"UPDATE payments SET customerNumber = 89, checkNumber = 82, paymentDate = 31, amount = 4 WHERE amount = 77 LIMIT 1"
+"UPDATE productlines SET productLine = 82, textDescription = 1 WHERE productLine = 42 LIMIT 1"
+"UPDATE orders SET orderNumber = 31, orderDate = 70, requiredDate = 20, shippedDate = 85, status = 20 WHERE requiredDate = 20 LIMIT 1"
+"INSERT INTO orders (orderDate, requiredDate, shippedDate, status) VALUES (38, 63, 68, 64)"
+DELETE FROM orders WHERE orderNumber = 21 LIMIT 1
+"SELECT orderNumber, orderDate, requiredDate, shippedDate, status FROM orders LIMIT 1"
+SHOW INDEX FROM `classicmodels`.`orders`
+"SELECT productCode, productName, productLine, productScale, productVendor FROM products LIMIT 1"
+SHOW INDEX FROM `classicmodels`.`products`
+"SELECT officeCode, city, phone, addressLine1, addressLine2, state, country, postalCode, territory FROM offices LIMIT 1"
+SHOW INDEX FROM `classicmodels`.`offices`
+DELETE FROM employees WHERE lastName = 60 LIMIT 1
+"SELECT orderNumber, productCode, quantityOrdered, priceEach FROM orderdetails LIMIT 1"
+SHOW INDEX FROM `classicmodels`.`orderdetails`
+"SELECT customerNumber, customerName, contactLastName, contactFirstName, phone FROM customers LIMIT 1"
+SHOW INDEX FROM `classicmodels`.`customers`
+"INSERT INTO offices (city, phone, addressLine1, addressLine2, state, country, postalCode, territory) VALUES (75, 66, 38, 41, 81, 51, 47, 70)"
+"SELECT productCode, productName, productLine, productScale, productVendor FROM products LIMIT 1"
+SHOW INDEX FROM `classicmodels`.`products`
+"SELECT orderNumber, orderDate, requiredDate, shippedDate, status FROM orders LIMIT 1"
+SHOW INDEX FROM `classicmodels`.`orders`
+"INSERT INTO offices (city, phone, addressLine1, addressLine2, state, country, postalCode, territory) VALUES (34, 92, 27, 61, 28, 81, 12, 69)"
+"INSERT INTO customers (customerName, contactLastName, contactFirstName, phone) VALUES (50, 37, 42, 39)"
+"INSERT INTO orderdetails (productCode, quantityOrdered, priceEach) VALUES (69, 62, 49)"
+"SELECT productCode, productName, productLine, productScale, productVendor FROM products LIMIT 1"
+SHOW INDEX FROM `classicmodels`.`products`
+DELETE FROM orderdetails WHERE orderNumber = 96 LIMIT 1
+"UPDATE employees SET employeeNumber = 74, lastName = 8, firstName = 78, extension = 56, email = 95 WHERE extension = 73 LIMIT 1"
+"UPDATE orders SET orderNumber = 78, orderDate = 22, requiredDate = 45, shippedDate = 8, status = 34 WHERE shippedDate = 65 LIMIT 1"
+"SELECT employeeNumber, lastName, firstName, extension, email FROM employees LIMIT 1"
+SHOW INDEX FROM `classicmodels`.`employees`
+DELETE FROM productlines WHERE productLine = 97 LIMIT 1
+"SELECT productCode, productName, productLine, productScale, productVendor FROM products LIMIT 1"
+SHOW INDEX FROM `classicmodels`.`products`
+"INSERT INTO offices (city, phone, addressLine1, addressLine2, state, country, postalCode, territory) VALUES (63, 86, 82, 52, 18, 50, 32, 38)"
+"INSERT INTO offices (city, phone, addressLine1, addressLine2, state, country, postalCode, territory) VALUES (39, 98, 92, 94, 4, 40, 10, 76)"
+"INSERT INTO offices (city, phone, addressLine1, addressLine2, state, country, postalCode, territory) VALUES (65, 15, 28, 86, 65, 36, 39, 88)"
+"UPDATE offices SET officeCode = 17, city = 34, phone = 7, addressLine1 = 91, addressLine2 = 39, state = 36, country = 58, postalCode = 58, territory = 2 WHERE officeCode = 78 LIMIT 1"
+SHOW WARNINGS
+"INSERT INTO customers (customerName, contactLastName, contactFirstName, phone) VALUES (25, 69, 85, 76)"
+"UPDATE orders SET orderNumber = 93, orderDate = 50, requiredDate = 25, shippedDate = 86, status = 58 WHERE shippedDate = 82 LIMIT 1"
+"INSERT INTO employees (lastName, firstName, extension, email) VALUES (58, 46, 36, 56)"
+DELETE FROM offices WHERE postalCode = 18 LIMIT 1
+"INSERT INTO orders (orderDate, requiredDate, shippedDate, status) VALUES (24, 38, 21, 77)"
+"UPDATE orderdetails SET orderNumber = 83, productCode = 9, quantityOrdered = 27, priceEach = 66 WHERE quantityOrdered = 47 LIMIT 1"
+"INSERT INTO orders (orderDate, requiredDate, shippedDate, status) VALUES (17, 79, 8, 47)"
+DELETE FROM offices WHERE addressLine1 = 50 LIMIT 1
+DELETE FROM orderdetails WHERE productCode = 65 LIMIT 1
+"SELECT orderNumber, productCode, quantityOrdered, priceEach FROM orderdetails LIMIT 1"
+root@localhost on  using SSL/TLS
+set autocommit=1
+SELECT current_user()
+SET CHARACTER SET utf8
+SET NAMES utf8
+SET SQL_SAFE_UPDATES=1
+SELECT CONNECTION_ID()
+show character set where charset = 'utf8mb4'
+SET NAMES 'utf8mb4'
+
+SHOW SESSION STATUS LIKE 'Ssl_cipher'
+USE `classicmodels`
+set autocommit=1
+use classicmodels
+SELECT DATABASE()
+"SELECT productCode, productName, productLine, productScale, productVendor FROM products LIMIT 1"
+SHOW INDEX FROM `classicmodels`.`products`
+"UPDATE orderdetails SET orderNumber = 80, productCode = 91, quantityOrdered = 31, priceEach = 14 WHERE quantityOrdered = 79 LIMIT 1"
+"UPDATE employees SET employeeNumber = 43, lastName = 56, firstName = 85, extension = 56, email = 65 WHERE lastName = 66 LIMIT 1"
+"UPDATE orders SET orderNumber = 68, orderDate = 81, requiredDate = 77, shippedDate = 92, status = 100 WHERE requiredDate = 99 LIMIT 1"
+"SELECT officeCode, city, phone, addressLine1, addressLine2, state, country, postalCode, territory FROM offices LIMIT 1"
+SHOW INDEX FROM `classicmodels`.`offices`
+"SELECT customerNumber, customerName, contactLastName, contactFirstName, phone FROM customers LIMIT 1"
+SHOW INDEX FROM `classicmodels`.`customers`
+"UPDATE payments SET customerNumber = 83, checkNumber = 86, paymentDate = 31, amount = 94 WHERE paymentDate = 34 LIMIT 1"
+"SELECT orderNumber, productCode, quantityOrdered, priceEach FROM orderdetails LIMIT 1"
+SHOW INDEX FROM `classicmodels`.`orderdetails`
+"UPDATE orderdetails SET orderNumber = 76, productCode = 12, quantityOrdered = 63, priceEach = 68 WHERE priceEach = 92 LIMIT 1"
+DELETE FROM products WHERE productScale = 17 LIMIT 1
+"UPDATE offices SET officeCode = 21, city = 36, phone = 56, addressLine1 = 14, addressLine2 = 15, state = 55, country = 40, postalCode = 44, territory = 55 WHERE country = 86 LIMIT 1"
+DELETE FROM customers WHERE contactLastName = 36 LIMIT 1
+"SELECT productCode, productName, productLine, productScale, productVendor FROM products LIMIT 1"
+SHOW INDEX FROM `classicmodels`.`products`
+"SELECT employeeNumber, lastName, firstName, extension, email FROM employees LIMIT 1"
+SHOW INDEX FROM `classicmodels`.`employees`
+"UPDATE customers SET customerNumber = 25, customerName = 71, contactLastName = 94, contactFirstName = 91, phone = 87 WHERE contactFirstName = 55 LIMIT 1"
+DELETE FROM products WHERE productName = 24 LIMIT 1
+"UPDATE products SET productCode = 60, productName = 22, productLine = 69, productScale = 78, productVendor = 10 WHERE productLine = 25 LIMIT 1"
+SHOW WARNINGS
+DELETE FROM products WHERE productName = 21 LIMIT 1
+"UPDATE employees SET employeeNumber = 7, lastName = 46, firstName = 98, extension = 17, email = 3 WHERE email = 86 LIMIT 1"
+"INSERT INTO customers (customerName, contactLastName, contactFirstName, phone) VALUES (78, 56, 57, 35)"
+"UPDATE productlines SET productLine = 22, textDescription = 30 WHERE productLine = 2 LIMIT 1"
+"UPDATE productlines SET productLine = 9, textDescription = 11 WHERE textDescription = 42 LIMIT 1"
+DELETE FROM productlines WHERE textDescription = 71 LIMIT 1
+"UPDATE customers SET customerNumber = 87, customerName = 24, contactLastName = 3, contactFirstName = 4, phone = 69 WHERE contactFirstName = 67 LIMIT 1"
+"UPDATE customers SET customerNumber = 70, customerName = 84, contactLastName = 84, contactFirstName = 52, phone = 21 WHERE contactLastName = 27 LIMIT 1"
+DELETE FROM employees WHERE extension = 25 LIMIT 1
+"INSERT INTO customers (customerName, contactLastName, contactFirstName, phone) VALUES (35, 87, 96, 99)"
+"SELECT productLine, textDescription FROM productlines LIMIT 1"
+SHOW INDEX FROM `classicmodels`.`productlines`
+"INSERT INTO employees (lastName, firstName, extension, email) VALUES (60, 3, 7, 78)"
+"UPDATE offices SET officeCode = 78, city = 39, phone = 66, addressLine1 = 67, addressLine2 = 74, state = 7, country = 96, postalCode = 56, territory = 72 WHERE addressLine1 = 14 LIMIT 1"
+"UPDATE orders SET orderNumber = 53, orderDate = 61, requiredDate = 52, shippedDate = 84, status = 22 WHERE shippedDate = 23 LIMIT 1"
+"UPDATE employees SET employeeNumber = 60, lastName = 72, firstName = 91, extension = 59, email = 85 WHERE lastName = 81 LIMIT 1"
+"INSERT INTO products (productName, productLine, productScale, productVendor) VALUES (97, 63, 60, 6)"
+"UPDATE offices SET officeCode = 45, city = 11, phone = 55, addressLine1 = 64, addressLine2 = 39, state = 59, country = 68, postalCode = 84, territory = 2 WHERE state = 20 LIMIT 1"
+"INSERT INTO orders (orderDate, requiredDate, shippedDate, status) VALUES (1, 93, 40, 98)"
+DELETE FROM orders WHERE status = 31 LIMIT 1
+"UPDATE orderdetails SET orderNumber = 46, productCode = 96, quantityOrdered = 29, priceEach = 98 WHERE quantityOrdered = 37 LIMIT 1"
+"SELECT officeCode, city, phone, addressLine1, addressLine2, state, country, postalCode, territory FROM offices LIMIT 1"
+SHOW INDEX FROM `classicmodels`.`offices`
+"SELECT productLine, textDescription FROM productlines LIMIT 1"
+SHOW INDEX FROM `classicmodels`.`productlines`
+"UPDATE payments SET customerNumber = 15, checkNumber = 93, paymentDate = 30, amount = 2 WHERE checkNumber = 90 LIMIT 1"
+"INSERT INTO offices (city, phone, addressLine1, addressLine2, state, country, postalCode, territory) VALUES (94, 100, 10, 91, 49, 64, 53, 82)"
+"SELECT productCode, productName, productLine, productScale, productVendor FROM products LIMIT 1"
+SHOW INDEX FROM `classicmodels`.`products`
+"SELECT productLine, textDescription FROM productlines LIMIT 1"
+SHOW INDEX FROM `classicmodels`.`productlines`
+"INSERT INTO customers (customerName, contactLastName, contactFirstName, phone) VALUES (14, 96, 52, 80)"
+"SELECT productLine, textDescription FROM productlines LIMIT 1"
+SHOW INDEX FROM `classicmodels`.`productlines`
+"UPDATE products SET productCode = 36, productName = 69, productLine = 51, productScale = 57, productVendor = 75 WHERE productScale = 72 LIMIT 1"
+"INSERT INTO orderdetails (productCode, quantityOrdered, priceEach) VALUES (30, 53, 6)"
+"SELECT employeeNumber, lastName, firstName, extension, email FROM employees LIMIT 1"
+SHOW INDEX FROM `classicmodels`.`employees`
+"UPDATE customers SET customerNumber = 52, customerName = 59, contactLastName = 56, contactFirstName = 7, phone = 16 WHERE customerNumber = 100 LIMIT 1"
+"UPDATE orders SET orderNumber = 28, orderDate = 55, requiredDate = 31, shippedDate = 58, status = 77 WHERE requiredDate = 86 LIMIT 1"
+DELETE FROM orderdetails WHERE orderNumber = 50 LIMIT 1
+DELETE FROM customers WHERE customerName = 93 LIMIT 1
+"INSERT INTO employees (lastName, firstName, extension, email) VALUES (45, 68, 48, 71)"
+"INSERT INTO customers (customerName, contactLastName, contactFirstName, phone) VALUES (63, 100, 100, 12)"
+"SELECT orderNumber, productCode, quantityOrdered, priceEach FROM orderdetails LIMIT 1"
+SHOW INDEX FROM `classicmodels`.`orderdetails`
+"INSERT INTO offices (city, phone, addressLine1, addressLine2, state, country, postalCode, territory) VALUES (39, 61, 56, 74, 50, 82, 100, 97)"
+INSERT INTO productlines (textDescription) VALUES (4)
+"UPDATE offices SET officeCode = 87, city = 61, phone = 1, addressLine1 = 38, addressLine2 = 90, state = 10, country = 44, postalCode = 31, territory = 65 WHERE phone = 62 LIMIT 1"
+DELETE FROM payments WHERE paymentDate = 5 LIMIT 1
+"INSERT INTO payments (checkNumber, paymentDate, amount) VALUES (17, 96, 18)"
+"UPDATE offices SET officeCode = 74, city = 15, phone = 80, addressLine1 = 79, addressLine2 = 52, state = 46, country = 68, postalCode = 28, territory = 48 WHERE country = 62 LIMIT 1"
+"SELECT officeCode, city, phone, addressLine1, addressLine2, state, country, postalCode, territory FROM offices LIMIT 1"
+SHOW INDEX FROM `classicmodels`.`offices`
+"UPDATE orders SET orderNumber = 70, orderDate = 64, requiredDate = 92, shippedDate = 74, status = 96 WHERE status = 100 LIMIT 1"
+"INSERT INTO orderdetails (productCode, quantityOrdered, priceEach) VALUES (21, 68, 91)"
+"INSERT INTO orders (orderDate, requiredDate, shippedDate, status) VALUES (52, 89, 70, 42)"
+"UPDATE products SET productCode = 55, productName = 85, productLine = 10, productScale = 90, productVendor = 86 WHERE productCode = 75 LIMIT 1"
+SHOW WARNINGS
+"SELECT orderNumber, orderDate, requiredDate, shippedDate, status FROM orders LIMIT 1"
+SHOW INDEX FROM `classicmodels`.`orders`
+"UPDATE productlines SET productLine = 16, textDescription = 65 WHERE textDescription = 46 LIMIT 1"
+"UPDATE offices SET officeCode = 12, city = 95, phone = 32, addressLine1 = 87, addressLine2 = 65, state = 96, country = 46, postalCode = 33, territory = 93 WHERE phone = 79 LIMIT 1"
+"INSERT INTO customers (customerName, contactLastName, contactFirstName, phone) VALUES (41, 98, 97, 79)"
+DELETE FROM products WHERE productLine = 43 LIMIT 1
+SHOW WARNINGS
+DELETE FROM offices WHERE territory = 27 LIMIT 1
+"UPDATE payments SET customerNumber = 59, checkNumber = 17, paymentDate = 98, amount = 70 WHERE checkNumber = 73 LIMIT 1"
+"INSERT INTO orders (orderDate, requiredDate, shippedDate, status) VALUES (33, 75, 31, 44)"
+"INSERT INTO employees (lastName, firstName, extension, email) VALUES (24, 41, 93, 64)"
+DELETE FROM payments WHERE paymentDate = 98 LIMIT 1
+"SELECT customerNumber, checkNumber, paymentDate, amount FROM payments LIMIT 1"
+SHOW INDEX FROM `classicmodels`.`payments`
+"INSERT INTO customers (customerName, contactLastName, contactFirstName, phone) VALUES (79, 45, 16, 19)"
+"UPDATE orderdetails SET orderNumber = 67, productCode = 74, quantityOrdered = 48, priceEach = 72 WHERE quantityOrdered = 69 LIMIT 1"
+DELETE FROM orderdetails WHERE productCode = 27 LIMIT 1
+DELETE FROM employees WHERE employeeNumber = 48 LIMIT 1
+"SELECT orderNumber, orderDate, requiredDate, shippedDate, status FROM orders LIMIT 1"
+SHOW INDEX FROM `classicmodels`.`orders`
+"SELECT orderNumber, orderDate, requiredDate, shippedDate, status FROM orders LIMIT 1"
+SHOW INDEX FROM `classicmodels`.`orders`
+"UPDATE orders SET orderNumber = 56, orderDate = 82, requiredDate = 77, shippedDate = 92, status = 14 WHERE orderNumber = 50 LIMIT 1"
+DELETE FROM employees WHERE extension = 42 LIMIT 1
+"INSERT INTO orders (orderDate, requiredDate, shippedDate, status) VALUES (8, 78, 61, 90)"
+DELETE FROM payments WHERE checkNumber = 9 LIMIT 1
+DELETE FROM payments WHERE checkNumber = 8 LIMIT 1
+DELETE FROM employees WHERE lastName = 40 LIMIT 1
+"UPDATE payments SET customerNumber = 9, checkNumber = 64, paymentDate = 91, amount = 11 WHERE amount = 64 LIMIT 1"
+"SELECT productCode, productName, productLine, productScale, productVendor FROM products LIMIT 1"
+SHOW INDEX FROM `classicmodels`.`products`
+"INSERT INTO orders (orderDate, requiredDate, shippedDate, status) VALUES (91, 2, 97, 51)"
+"INSERT INTO customers (customerName, contactLastName, contactFirstName, phone) VALUES (82, 8, 20, 36)"
+DELETE FROM products WHERE productScale = 40 LIMIT 1
+DELETE FROM orders WHERE requiredDate = 68 LIMIT 1
+"SELECT orderNumber, orderDate, requiredDate, shippedDate, status FROM orders LIMIT 1"
+SHOW INDEX FROM `classicmodels`.`orders`
+"SELECT orderNumber, productCode, quantityOrdered, priceEach FROM orderdetails LIMIT 1"
+SHOW INDEX FROM `classicmodels`.`orderdetails`
+DELETE FROM payments WHERE paymentDate = 94 LIMIT 1
+"INSERT INTO payments (checkNumber, paymentDate, amount) VALUES (19, 69, 25)"
+"UPDATE offices SET officeCode = 31, city = 34, phone = 39, addressLine1 = 69, addressLine2 = 88, state = 82, country = 81, postalCode = 16, territory = 25 WHERE addressLine1 = 85 LIMIT 1"
+"UPDATE offices SET officeCode = 62, city = 57, phone = 47, addressLine1 = 73, addressLine2 = 27, state = 37, country = 66, postalCode = 44, territory = 77 WHERE territory = 2 LIMIT 1"
+"INSERT INTO employees (lastName, firstName, extension, email) VALUES (55, 57, 78, 90)"
+"UPDATE customers SET customerNumber = 2, customerName = 76, contactLastName = 11, contactFirstName = 4, phone = 32 WHERE contactLastName = 63 LIMIT 1"
+"UPDATE productlines SET productLine = 88, textDescription = 80 WHERE productLine = 36 LIMIT 1"
+"INSERT INTO orderdetails (productCode, quantityOrdered, priceEach) VALUES (95, 60, 82)"
+DELETE FROM products WHERE productLine = 73 LIMIT 1
+SHOW WARNINGS
+"INSERT INTO orderdetails (productCode, quantityOrdered, priceEach) VALUES (39, 16, 39)"
+"UPDATE customers SET customerNumber = 22, customerName = 11, contactLastName = 53, contactFirstName = 30, phone = 9 WHERE contactFirstName = 64 LIMIT 1"
+DELETE FROM customers WHERE customerNumber = 66 LIMIT 1
+"INSERT INTO customers (customerName, contactLastName, contactFirstName, phone) VALUES (76, 10, 90, 14)"
+"SELECT orderNumber, orderDate, requiredDate, shippedDate, status FROM orders LIMIT 1"
+SHOW INDEX FROM `classicmodels`.`orders`
+"UPDATE orderdetails SET orderNumber = 78, productCode = 41, quantityOrdered = 61, priceEach = 83 WHERE priceEach = 22 LIMIT 1"
+"INSERT INTO orderdetails (productCode, quantityOrdered, priceEach) VALUES (63, 63, 66)"
+"SELECT productCode, productName, productLine, productScale, productVendor FROM products LIMIT 1"
+SHOW INDEX FROM `classicmodels`.`products`
+"SELECT employeeNumber, lastName, firstName, extension, email FROM employees LIMIT 1"
+SHOW INDEX FROM `classicmodels`.`employees`
+DELETE FROM customers WHERE contactFirstName = 65 LIMIT 1
+"UPDATE employees SET employeeNumber = 92, lastName = 41, firstName = 61, extension = 36, email = 61 WHERE firstName = 50 LIMIT 1"
+DELETE FROM employees WHERE lastName = 43 LIMIT 1
+"SELECT customerNumber, checkNumber, paymentDate, amount FROM payments LIMIT 1"
+SHOW INDEX FROM `classicmodels`.`payments`
+"INSERT INTO customers (customerName, contactLastName, contactFirstName, phone) VALUES (90, 49, 95, 22)"
+DELETE FROM payments WHERE customerNumber = 48 LIMIT 1
+"INSERT INTO employees (lastName, firstName, extension, email) VALUES (5, 6, 86, 19)"
+"INSERT INTO orders (orderDate, requiredDate, shippedDate, status) VALUES (29, 38, 68, 54)"
+"SELECT employeeNumber, lastName, firstName, extension, email FROM employees LIMIT 1"
+SHOW INDEX FROM `classicmodels`.`employees`
+"INSERT INTO offices (city, phone, addressLine1, addressLine2, state, country, postalCode, territory) VALUES (35, 95, 68, 23, 35, 44, 15, 78)"
+DELETE FROM orders WHERE orderNumber = 31 LIMIT 1
+"SELECT customerNumber, customerName, contactLastName, contactFirstName, phone FROM customers LIMIT 1"
+SHOW INDEX FROM `classicmodels`.`customers`
+DELETE FROM offices WHERE state = 5 LIMIT 1
+"INSERT INTO employees (lastName, firstName, extension, email) VALUES (34, 7, 71, 36)"
+"INSERT INTO customers (customerName, contactLastName, contactFirstName, phone) VALUES (77, 93, 2, 74)"
+"INSERT INTO employees (lastName, firstName, extension, email) VALUES (46, 13, 23, 13)"
+"UPDATE employees SET employeeNumber = 24, lastName = 59, firstName = 6, extension = 67, email = 32 WHERE employeeNumber = 79 LIMIT 1"
+INSERT INTO productlines (textDescription) VALUES (84)
+"UPDATE offices SET officeCode = 15, city = 78, phone = 54, addressLine1 = 66, addressLine2 = 45, state = 89, country = 35, postalCode = 8, territory = 85 WHERE phone = 47 LIMIT 1"
+"UPDATE productlines SET productLine = 23, textDescription = 11 WHERE productLine = 64 LIMIT 1"
+"SELECT customerNumber, customerName, contactLastName, contactFirstName, phone FROM customers LIMIT 1"
+SHOW INDEX FROM `classicmodels`.`customers`
+INSERT INTO productlines (textDescription) VALUES (33)
+"UPDATE productlines SET productLine = 85, textDescription = 66 WHERE textDescription = 27 LIMIT 1"
+DELETE FROM payments WHERE paymentDate = 39 LIMIT 1
+"SELECT employeeNumber, lastName, firstName, extension, email FROM employees LIMIT 1"
+SHOW INDEX FROM `classicmodels`.`employees`
+"INSERT INTO orderdetails (productCode, quantityOrdered, priceEach) VALUES (43, 70, 22)"
+INSERT INTO productlines (textDescription) VALUES (59)
+"SELECT officeCode, city, phone, addressLine1, addressLine2, state, country, postalCode, territory FROM offices LIMIT 1"
+SHOW INDEX FROM `classicmodels`.`offices`
+"UPDATE employees SET employeeNumber = 32, lastName = 78, firstName = 85, extension = 35, email = 30 WHERE extension = 32 LIMIT 1"
+"SELECT officeCode, city, phone, addressLine1, addressLine2, state, country, postalCode, territory FROM offices LIMIT 1"
+SHOW INDEX FROM `classicmodels`.`offices`
+DELETE FROM customers WHERE customerName = 74 LIMIT 1
+DELETE FROM offices WHERE postalCode = 1 LIMIT 1
+"UPDATE orders SET orderNumber = 55, orderDate = 73, requiredDate = 66, shippedDate = 77, status = 19 WHERE orderDate = 91 LIMIT 1"
+INSERT INTO productlines (textDescription) VALUES (26)
+DELETE FROM employees WHERE employeeNumber = 51 LIMIT 1
+DELETE FROM payments WHERE checkNumber = 43 LIMIT 1
+INSERT INTO productlines (textDescription) VALUES (29)
+"SELECT customerNumber, customerName, contactLastName, contactFirstName, phone FROM customers LIMIT 1"
+SHOW INDEX FROM `classicmodels`.`customers`
+DELETE FROM offices WHERE city = 56 LIMIT 1
+DELETE FROM orders WHERE orderNumber = 95 LIMIT 1
+"UPDATE orders SET orderNumber = 26, orderDate = 94, requiredDate = 57, shippedDate = 46, status = 70 WHERE status = 7 LIMIT 1"
+"SELECT customerNumber, checkNumber, paymentDate, amount FROM payments LIMIT 1"
+SHOW INDEX FROM `classicmodels`.`payments`
+"SELECT employeeNumber, lastName, firstName, extension, email FROM employees LIMIT 1"
+SHOW INDEX FROM `classicmodels`.`employees`
+"INSERT INTO orders (orderDate, requiredDate, shippedDate, status) VALUES (62, 13, 67, 85)"
+"INSERT INTO orders (orderDate, requiredDate, shippedDate, status) VALUES (92, 80, 96, 15)"
+"UPDATE orders SET orderNumber = 43, orderDate = 50, requiredDate = 43, shippedDate = 72, status = 7 WHERE shippedDate = 38 LIMIT 1"
+"INSERT INTO orders (orderDate, requiredDate, shippedDate, status) VALUES (59, 15, 15, 41)"
+DELETE FROM offices WHERE addressLine1 = 5 LIMIT 1
+"INSERT INTO products (productName, productLine, productScale, productVendor) VALUES (45, 88, 91, 11)"
+"SELECT employeeNumber, lastName, firstName, extension, email FROM employees LIMIT 1"
+SHOW INDEX FROM `classicmodels`.`employees`
+"SELECT officeCode, city, phone, addressLine1, addressLine2, state, country, postalCode, territory FROM offices LIMIT 1"
+SHOW INDEX FROM `classicmodels`.`offices`
+"UPDATE customers SET customerNumber = 10, customerName = 28, contactLastName = 74, contactFirstName = 45, phone = 13 WHERE customerName = 25 LIMIT 1"
+DELETE FROM payments WHERE checkNumber = 50 LIMIT 1
+INSERT INTO productlines (textDescription) VALUES (72)
+"SELECT customerNumber, customerName, contactLastName, contactFirstName, phone FROM customers LIMIT 1"
+SHOW INDEX FROM `classicmodels`.`customers`
+"SELECT orderNumber, productCode, quantityOrdered, priceEach FROM orderdetails LIMIT 1"
+SHOW INDEX FROM `classicmodels`.`orderdetails`
+"UPDATE products SET productCode = 67, productName = 64, productLine = 28, productScale = 29, productVendor = 64 WHERE productLine = 82 LIMIT 1"
+SHOW WARNINGS
+DELETE FROM customers WHERE customerName = 16 LIMIT 1
+DELETE FROM payments WHERE customerNumber = 79 LIMIT 1
+"SELECT officeCode, city, phone, addressLine1, addressLine2, state, country, postalCode, territory FROM offices LIMIT 1"
+SHOW INDEX FROM `classicmodels`.`offices`
+"INSERT INTO orderdetails (productCode, quantityOrdered, priceEach) VALUES (37, 48, 25)"
+INSERT INTO productlines (textDescription) VALUES (67)
+DELETE FROM orderdetails WHERE productCode = 34 LIMIT 1
+"UPDATE products SET productCode = 9, productName = 82, productLine = 96, productScale = 35, productVendor = 100 WHERE productLine = 65 LIMIT 1"
+SHOW WARNINGS
+"UPDATE payments SET customerNumber = 89, checkNumber = 82, paymentDate = 31, amount = 4 WHERE amount = 77 LIMIT 1"
+"UPDATE productlines SET productLine = 82, textDescription = 1 WHERE productLine = 42 LIMIT 1"
+"UPDATE orders SET orderNumber = 31, orderDate = 70, requiredDate = 20, shippedDate = 85, status = 20 WHERE requiredDate = 20 LIMIT 1"
+"INSERT INTO orders (orderDate, requiredDate, shippedDate, status) VALUES (38, 63, 68, 64)"
+DELETE FROM orders WHERE orderNumber = 21 LIMIT 1
+"SELECT orderNumber, orderDate, requiredDate, shippedDate, status FROM orders LIMIT 1"
+SHOW INDEX FROM `classicmodels`.`orders`
+"SELECT productCode, productName, productLine, productScale, productVendor FROM products LIMIT 1"
+SHOW INDEX FROM `classicmodels`.`products`
+"SELECT officeCode, city, phone, addressLine1, addressLine2, state, country, postalCode, territory FROM offices LIMIT 1"
+SHOW INDEX FROM `classicmodels`.`offices`
+DELETE FROM employees WHERE lastName = 60 LIMIT 1
+"SELECT orderNumber, productCode, quantityOrdered, priceEach FROM orderdetails LIMIT 1"
+SHOW INDEX FROM `classicmodels`.`orderdetails`
+"SELECT customerNumber, customerName, contactLastName, contactFirstName, phone FROM customers LIMIT 1"
+SHOW INDEX FROM `classicmodels`.`customers`
+"INSERT INTO offices (city, phone, addressLine1, addressLine2, state, country, postalCode, territory) VALUES (75, 66, 38, 41, 81, 51, 47, 70)"
+"SELECT productCode, productName, productLine, productScale, productVendor FROM products LIMIT 1"
+SHOW INDEX FROM `classicmodels`.`products`
+"SELECT orderNumber, orderDate, requiredDate, shippedDate, status FROM orders LIMIT 1"
+SHOW INDEX FROM `classicmodels`.`orders`
+"INSERT INTO offices (city, phone, addressLine1, addressLine2, state, country, postalCode, territory) VALUES (34, 92, 27, 61, 28, 81, 12, 69)"
+"INSERT INTO customers (customerName, contactLastName, contactFirstName, phone) VALUES (50, 37, 42, 39)"
+"INSERT INTO orderdetails (productCode, quantityOrdered, priceEach) VALUES (69, 62, 49)"
+"SELECT productCode, productName, productLine, productScale, productVendor FROM products LIMIT 1"
+SHOW INDEX FROM `classicmodels`.`products`
+DELETE FROM orderdetails WHERE orderNumber = 96 LIMIT 1
+"UPDATE employees SET employeeNumber = 74, lastName = 8, firstName = 78, extension = 56, email = 95 WHERE extension = 73 LIMIT 1"
+"UPDATE orders SET orderNumber = 78, orderDate = 22, requiredDate = 45, shippedDate = 8, status = 34 WHERE shippedDate = 65 LIMIT 1"
+"SELECT employeeNumber, lastName, firstName, extension, email FROM employees LIMIT 1"
+SHOW INDEX FROM `classicmodels`.`employees`
+DELETE FROM productlines WHERE productLine = 97 LIMIT 1
+"SELECT productCode, productName, productLine, productScale, productVendor FROM products LIMIT 1"
+SHOW INDEX FROM `classicmodels`.`products`
+"INSERT INTO offices (city, phone, addressLine1, addressLine2, state, country, postalCode, territory) VALUES (63, 86, 82, 52, 18, 50, 32, 38)"
+"INSERT INTO offices (city, phone, addressLine1, addressLine2, state, country, postalCode, territory) VALUES (39, 98, 92, 94, 4, 40, 10, 76)"
+"INSERT INTO offices (city, phone, addressLine1, addressLine2, state, country, postalCode, territory) VALUES (65, 15, 28, 86, 65, 36, 39, 88)"
+"UPDATE offices SET officeCode = 17, city = 34, phone = 7, addressLine1 = 91, addressLine2 = 39, state = 36, country = 58, postalCode = 58, territory = 2 WHERE officeCode = 78 LIMIT 1"
+SHOW WARNINGS
+"INSERT INTO customers (customerName, contactLastName, contactFirstName, phone) VALUES (25, 69, 85, 76)"
+"UPDATE orders SET orderNumber = 93, orderDate = 50, requiredDate = 25, shippedDate = 86, status = 58 WHERE shippedDate = 82 LIMIT 1"
+"INSERT INTO employees (lastName, firstName, extension, email) VALUES (58, 46, 36, 56)"
+DELETE FROM offices WHERE postalCode = 18 LIMIT 1
+"INSERT INTO orders (orderDate, requiredDate, shippedDate, status) VALUES (24, 38, 21, 77)"
+"UPDATE orderdetails SET orderNumber = 83, productCode = 9, quantityOrdered = 27, priceEach = 66 WHERE quantityOrdered = 47 LIMIT 1"
+"INSERT INTO orders (orderDate, requiredDate, shippedDate, status) VALUES (17, 79, 8, 47)"
+DELETE FROM offices WHERE addressLine1 = 50 LIMIT 1
+DELETE FROM orderdetails WHERE productCode = 65 LIMIT 1
+"SELECT orderNumber, productCode, quantityOrdered, priceEach FROM orderdetails LIMIT 1"
+"UPDATE orders SET orderNumber = 73, orderDate = 36, requiredDate = 38, shippedDate = 97, status = 29 WHERE orderNumber = 58 LIMIT 1"
+"INSERT INTO customers (customerName, contactLastName, contactFirstName, phone) VALUES (51, 62, 31, 30)"
+"UPDATE productlines SET productLine = 16, textDescription = 51 WHERE textDescription = 47 LIMIT 1"
+DELETE FROM offices WHERE addressLine1 = 83 LIMIT 1
+"SELECT productCode, productName, productLine, productScale, productVendor FROM products LIMIT 1"
+"INSERT INTO orders (orderDate, requiredDate, shippedDate, status) VALUES (89, 81, 96, 44)"
+"UPDATE orders SET orderNumber = 33, orderDate = 38, requiredDate = 78, shippedDate = 75, status = 50 WHERE status = 44 LIMIT 1"
+"UPDATE payments SET customerNumber = 1, checkNumber = 56, paymentDate = 96, amount = 54 WHERE paymentDate = 23 LIMIT 1"
+"INSERT INTO offices (city, phone, addressLine1, addressLine2, state, country, postalCode, territory) VALUES (32, 99, 11, 61, 28, 55, 100, 77)"
+"UPDATE offices SET officeCode = 57, city = 43, phone = 49, addressLine1 = 43, addressLine2 = 30, state = 72, country = 51, postalCode = 19, territory = 76 WHERE city = 78 LIMIT 1"
+"UPDATE offices SET officeCode = 50, city = 52, phone = 18, addressLine1 = 68, addressLine2 = 62, state = 40, country = 9, postalCode = 92, territory = 18 WHERE city = 86 LIMIT 1"
+"UPDATE orderdetails SET orderNumber = 49, productCode = 15, quantityOrdered = 63, priceEach = 16 WHERE quantityOrdered = 94 LIMIT 1"
+"UPDATE customers SET customerNumber = 93, customerName = 52, contactLastName = 21, contactFirstName = 27, phone = 37 WHERE contactLastName = 37 LIMIT 1"
+"INSERT INTO orderdetails (productCode, quantityOrdered, priceEach) VALUES (71, 39, 13)"
+"INSERT INTO orders (orderDate, requiredDate, shippedDate, status) VALUES (34, 61, 34, 90)"
+"UPDATE productlines SET productLine = 27, textDescription = 59 WHERE textDescription = 29 LIMIT 1"
+"SELECT customerNumber, customerName, contactLastName, contactFirstName, phone FROM customers LIMIT 1"
+DELETE FROM orderdetails WHERE priceEach = 90 LIMIT 1
+"INSERT INTO offices (city, phone, addressLine1, addressLine2, state, country, postalCode, territory) VALUES (84, 11, 95, 85, 72, 43, 60, 44)"
+"SELECT employeeNumber, lastName, firstName, extension, email FROM employees LIMIT 1"
+"INSERT INTO customers (customerName, contactLastName, contactFirstName, phone) VALUES (82, 56, 47, 27)"
+"UPDATE productlines SET productLine = 39, textDescription = 66 WHERE textDescription = 7 LIMIT 1"
+"UPDATE employees SET employeeNumber = 4, lastName = 24, firstName = 8, extension = 77, email = 98 WHERE email = 77 LIMIT 1"
+"UPDATE orders SET orderNumber = 64, orderDate = 24, requiredDate = 68, shippedDate = 85, status = 92 WHERE status = 8 LIMIT 1"
+"SELECT officeCode, city, phone, addressLine1, addressLine2, state, country, postalCode, territory FROM offices LIMIT 1"
+"UPDATE employees SET employeeNumber = 80, lastName = 81, firstName = 64, extension = 1, email = 4 WHERE email = 16 LIMIT 1"
+"UPDATE orderdetails SET orderNumber = 17, productCode = 5, quantityOrdered = 57, priceEach = 19 WHERE productCode = 48 LIMIT 1"
+"UPDATE productlines SET productLine = 23, textDescription = 76 WHERE textDescription = 72 LIMIT 1"
+"INSERT INTO payments (checkNumber, paymentDate, amount) VALUES (58, 92, 6)"
+"INSERT INTO offices (city, phone, addressLine1, addressLine2, state, country, postalCode, territory) VALUES (88, 9, 91, 39, 82, 13, 21, 84)"
+"INSERT INTO offices (city, phone, addressLine1, addressLine2, state, country, postalCode, territory) VALUES (31, 15, 71, 88, 55, 65, 7, 44)"
+"INSERT INTO orderdetails (productCode, quantityOrdered, priceEach) VALUES (3, 72, 78)"
+"UPDATE payments SET customerNumber = 10, checkNumber = 31, paymentDate = 33, amount = 67 WHERE paymentDate = 51 LIMIT 1"
+"UPDATE orderdetails SET orderNumber = 43, productCode = 87, quantityOrdered = 46, priceEach = 53 WHERE orderNumber = 56 LIMIT 1"
+"UPDATE productlines SET productLine = 24, textDescription = 26 WHERE textDescription = 56 LIMIT 1"
+"SELECT orderNumber, orderDate, requiredDate, shippedDate, status FROM orders LIMIT 1"
+"INSERT INTO orders (orderDate, requiredDate, shippedDate, status) VALUES (68, 45, 49, 99)"
+"SELECT officeCode, city, phone, addressLine1, addressLine2, state, country, postalCode, territory FROM offices LIMIT 1"
+"UPDATE offices SET officeCode = 23, city = 28, phone = 80, addressLine1 = 73, addressLine2 = 18, state = 40, country = 69, postalCode = 80, territory = 38 WHERE city = 53 LIMIT 1"
+"UPDATE productlines SET productLine = 99, textDescription = 91 WHERE textDescription = 27 LIMIT 1"
+"UPDATE productlines SET productLine = 48, textDescription = 29 WHERE productLine = 73 LIMIT 1"
+DELETE FROM products WHERE productScale = 19 LIMIT 1
+DELETE FROM products WHERE productVendor = 50 LIMIT 1
+"SELECT orderNumber, orderDate, requiredDate, shippedDate, status FROM orders LIMIT 1"
+"INSERT INTO payments (checkNumber, paymentDate, amount) VALUES (60, 69, 94)"
+DELETE FROM payments WHERE paymentDate = 44 LIMIT 1
+"UPDATE employees SET employeeNumber = 97, lastName = 59, firstName = 12, extension = 59, email = 63 WHERE firstName = 57 LIMIT 1"
+"UPDATE products SET productCode = 18, productName = 100, productLine = 23, productScale = 10, productVendor = 5 WHERE productName = 2 LIMIT 1"
+"INSERT INTO employees (lastName, firstName, extension, email) VALUES (16, 100, 96, 77)"
+"UPDATE offices SET officeCode = 75, city = 67, phone = 45, addressLine1 = 15, addressLine2 = 30, state = 48, country = 96, postalCode = 87, territory = 80 WHERE addressLine2 = 57 LIMIT 1"
+"UPDATE productlines SET productLine = 31, textDescription = 77 WHERE productLine = 25 LIMIT 1"
+"INSERT INTO employees (lastName, firstName, extension, email) VALUES (45, 3, 48, 1)"
+"INSERT INTO customers (customerName, contactLastName, contactFirstName, phone) VALUES (80, 43, 17, 49)"
+DELETE FROM products WHERE productVendor = 53 LIMIT 1
+"INSERT INTO orders (orderDate, requiredDate, shippedDate, status) VALUES (4, 21, 27, 6)"
+"UPDATE customers SET customerNumber = 13, customerName = 47, contactLastName = 18, contactFirstName = 31, phone = 75 WHERE customerNumber = 47 LIMIT 1"
+"INSERT INTO customers (customerName, contactLastName, contactFirstName, phone) VALUES (7, 66, 7, 1)"
+"SELECT customerNumber, checkNumber, paymentDate, amount FROM payments LIMIT 1"
+"SELECT officeCode, city, phone, addressLine1, addressLine2, state, country, postalCode, territory FROM offices LIMIT 1"
+"SELECT productCode, productName, productLine, productScale, productVendor FROM products LIMIT 1"
+DELETE FROM productlines WHERE productLine = 81 LIMIT 1
+"SELECT officeCode, city, phone, addressLine1, addressLine2, state, country, postalCode, territory FROM offices LIMIT 1"
+"SELECT orderNumber, productCode, quantityOrdered, priceEach FROM orderdetails LIMIT 1"
+DELETE FROM orders WHERE requiredDate = 31 LIMIT 1
+"SELECT orderNumber, productCode, quantityOrdered, priceEach FROM orderdetails LIMIT 1"
+"INSERT INTO payments (checkNumber, paymentDate, amount) VALUES (24, 59, 67)"
+DELETE FROM offices WHERE phone = 93 LIMIT 1
+"UPDATE employees SET employeeNumber = 10, lastName = 11, firstName = 87, extension = 16, email = 19 WHERE extension = 10 LIMIT 1"
+"SELECT productLine, textDescription FROM productlines LIMIT 1"
+"INSERT INTO customers (customerName, contactLastName, contactFirstName, phone) VALUES (8, 80, 59, 64)"
+INSERT INTO productlines (textDescription) VALUES (6)
+"SELECT productCode, productName, productLine, productScale, productVendor FROM products LIMIT 1"
+"SELECT employeeNumber, lastName, firstName, extension, email FROM employees LIMIT 1"
+"SELECT productCode, productName, productLine, productScale, productVendor FROM products LIMIT 1"
+"INSERT INTO employees (lastName, firstName, extension, email) VALUES (54, 65, 22, 82)"
+DELETE FROM employees WHERE employeeNumber = 8 LIMIT 1
+"UPDATE productlines SET productLine = 63, textDescription = 19 WHERE productLine = 34 LIMIT 1"
+"SELECT orderNumber, productCode, quantityOrdered, priceEach FROM orderdetails LIMIT 1"
+DELETE FROM productlines WHERE productLine = 68 LIMIT 1
+"INSERT INTO customers (customerName, contactLastName, contactFirstName, phone) VALUES (65, 94, 74, 21)"
+"UPDATE customers SET customerNumber = 10, customerName = 70, contactLastName = 68, contactFirstName = 10, phone = 83 WHERE customerNumber = 77 LIMIT 1"
+"UPDATE products SET productCode = 18, productName = 45, productLine = 19, productScale = 3, productVendor = 98 WHERE productScale = 26 LIMIT 1"
+"UPDATE orders SET orderNumber = 97, orderDate = 81, requiredDate = 65, shippedDate = 83, status = 30 WHERE shippedDate = 84 LIMIT 1"
+"INSERT INTO employees (lastName, firstName, extension, email) VALUES (96, 91, 6, 23)"
+DELETE FROM employees WHERE lastName = 20 LIMIT 1
+"SELECT customerNumber, customerName, contactLastName, contactFirstName, phone FROM customers LIMIT 1"
+"SELECT customerNumber, customerName, contactLastName, contactFirstName, phone FROM customers LIMIT 1"
+"SELECT orderNumber, productCode, quantityOrdered, priceEach FROM orderdetails LIMIT 1"
+"INSERT INTO employees (lastName, firstName, extension, email) VALUES (74, 74, 100, 89)"
+INSERT INTO productlines (textDescription) VALUES (78)
+DELETE FROM productlines WHERE productLine = 20 LIMIT 1
+"SELECT customerNumber, customerName, contactLastName, contactFirstName, phone FROM customers LIMIT 1"
+"UPDATE offices SET officeCode = 69, city = 26, phone = 77, addressLine1 = 72, addressLine2 = 85, state = 27, country = 33, postalCode = 84, territory = 44 WHERE city = 22 LIMIT 1"
+DELETE FROM offices WHERE phone = 12 LIMIT 1
+"UPDATE orders SET orderNumber = 94, orderDate = 59, requiredDate = 44, shippedDate = 40, status = 19 WHERE requiredDate = 54 LIMIT 1"
+"SELECT orderNumber, productCode, quantityOrdered, priceEach FROM orderdetails LIMIT 1"
+"SELECT orderNumber, productCode, quantityOrdered, priceEach FROM orderdetails LIMIT 1"
+"SELECT employeeNumber, lastName, firstName, extension, email FROM employees LIMIT 1"
+"INSERT INTO products (productName, productLine, productScale, productVendor) VALUES (51, 37, 59, 27)"
+DELETE FROM offices WHERE phone = 72 LIMIT 1
+"UPDATE payments SET customerNumber = 95, checkNumber = 21, paymentDate = 15, amount = 56 WHERE customerNumber = 78 LIMIT 1"
+"SELECT customerNumber, customerName, contactLastName, contactFirstName, phone FROM customers LIMIT 1"
+"UPDATE customers SET customerNumber = 99, customerName = 99, contactLastName = 97, contactFirstName = 45, phone = 74 WHERE contactFirstName = 55 LIMIT 1"
+"INSERT INTO offices (city, phone, addressLine1, addressLine2, state, country, postalCode, territory) VALUES (87, 88, 41, 77, 62, 92, 96, 2)"
+"SELECT customerNumber, checkNumber, paymentDate, amount FROM payments LIMIT 1"
+"UPDATE orderdetails SET orderNumber = 53, productCode = 76, quantityOrdered = 68, priceEach = 10 WHERE priceEach = 53 LIMIT 1"
+DELETE FROM orders WHERE shippedDate = 93 LIMIT 1
+"UPDATE productlines SET productLine = 20, textDescription = 98 WHERE productLine = 63 LIMIT 1"
+DELETE FROM customers WHERE customerName = 97 LIMIT 1
+"SELECT orderNumber, orderDate, requiredDate, shippedDate, status FROM orders LIMIT 1"
+"UPDATE orderdetails SET orderNumber = 53, productCode = 1, quantityOrdered = 38, priceEach = 2 WHERE priceEach = 46 LIMIT 1"
+"UPDATE orderdetails SET orderNumber = 26, productCode = 86, quantityOrdered = 47, priceEach = 59 WHERE productCode = 52 LIMIT 1"
+"UPDATE employees SET employeeNumber = 51, lastName = 69, firstName = 97, extension = 84, email = 8 WHERE employeeNumber = 74 LIMIT 1"
+"SELECT customerNumber, customerName, contactLastName, contactFirstName, phone FROM customers LIMIT 1"
+"UPDATE productlines SET productLine = 24, textDescription = 20 WHERE productLine = 45 LIMIT 1"
+"UPDATE customers SET customerNumber = 96, customerName = 98, contactLastName = 91, contactFirstName = 75, phone = 46 WHERE contactFirstName = 8 LIMIT 1"
+"UPDATE employees SET employeeNumber = 31, lastName = 77, firstName = 68, extension = 66, email = 74 WHERE email = 7 LIMIT 1"
+INSERT INTO productlines (textDescription) VALUES (24)
+DELETE FROM customers WHERE customerName = 26 LIMIT 1
+"INSERT INTO orders (orderDate, requiredDate, shippedDate, status) VALUES (98, 87, 19, 48)"
+INSERT INTO productlines (textDescription) VALUES (48)
+"INSERT INTO customers (customerName, contactLastName, contactFirstName, phone) VALUES (80, 9, 66, 62)"
+DELETE FROM products WHERE productLine = 81 LIMIT 1
+SHOW WARNINGS
+"SELECT productLine, textDescription FROM productlines LIMIT 1"
+"SELECT officeCode, city, phone, addressLine1, addressLine2, state, country, postalCode, territory FROM offices LIMIT 1"
+"INSERT INTO employees (lastName, firstName, extension, email) VALUES (31, 73, 68, 13)"
+DELETE FROM orderdetails WHERE productCode = 40 LIMIT 1
+DELETE FROM products WHERE productCode = 18 LIMIT 1
+SHOW WARNINGS
+DELETE FROM orders WHERE orderDate = 89 LIMIT 1
+"UPDATE productlines SET productLine = 9, textDescription = 69 WHERE productLine = 31 LIMIT 1"
+DELETE FROM productlines WHERE productLine = 98 LIMIT 1
+"UPDATE productlines SET productLine = 87, textDescription = 51 WHERE productLine = 21 LIMIT 1"
+"INSERT INTO products (productName, productLine, productScale, productVendor) VALUES (29, 95, 54, 71)"
+DELETE FROM orders WHERE orderNumber = 13 LIMIT 1
+"INSERT INTO orderdetails (productCode, quantityOrdered, priceEach) VALUES (74, 97, 6)"
+"UPDATE customers SET customerNumber = 19, customerName = 53, contactLastName = 63, contactFirstName = 56, phone = 44 WHERE contactFirstName = 72 LIMIT 1"
+"SELECT employeeNumber, lastName, firstName, extension, email FROM employees LIMIT 1"
+"INSERT INTO orderdetails (productCode, quantityOrdered, priceEach) VALUES (20, 97, 90)"
+"SELECT productLine, textDescription FROM productlines LIMIT 1"
+DELETE FROM productlines WHERE textDescription = 59 LIMIT 1
+"INSERT INTO payments (checkNumber, paymentDate, amount) VALUES (64, 91, 9)"
+"SELECT orderNumber, orderDate, requiredDate, shippedDate, status FROM orders LIMIT 1"
+"UPDATE customers SET customerNumber = 54, customerName = 37, contactLastName = 7, contactFirstName = 75, phone = 64 WHERE customerNumber = 15 LIMIT 1"
+"UPDATE payments SET customerNumber = 41, checkNumber = 97, paymentDate = 52, amount = 46 WHERE checkNumber = 80 LIMIT 1"
+DELETE FROM payments WHERE paymentDate = 28 LIMIT 1
+INSERT INTO productlines (textDescription) VALUES (51)
+"SELECT orderNumber, productCode, quantityOrdered, priceEach FROM orderdetails LIMIT 1"
+DELETE FROM products WHERE productCode = 86 LIMIT 1
+SHOW WARNINGS
+"INSERT INTO payments (checkNumber, paymentDate, amount) VALUES (17, 41, 76)"
+"SELECT customerNumber, checkNumber, paymentDate, amount FROM payments LIMIT 1"
+"SELECT employeeNumber, lastName, firstName, extension, email FROM employees LIMIT 1"
+"SELECT customerNumber, customerName, contactLastName, contactFirstName, phone FROM customers LIMIT 1"
+"UPDATE orders SET orderNumber = 5, orderDate = 95, requiredDate = 56, shippedDate = 28, status = 82 WHERE orderDate = 92 LIMIT 1"
+"UPDATE customers SET customerNumber = 56, customerName = 90, contactLastName = 28, contactFirstName = 71, phone = 57 WHERE contactFirstName = 61 LIMIT 1"
+"UPDATE employees SET employeeNumber = 100, lastName = 59, firstName = 71, extension = 13, email = 51 WHERE lastName = 48 LIMIT 1"
+"UPDATE payments SET customerNumber = 86, checkNumber = 6, paymentDate = 43, amount = 37 WHERE amount = 90 LIMIT 1"
+"UPDATE productlines SET productLine = 95, textDescription = 64 WHERE textDescription = 48 LIMIT 1"
+"INSERT INTO orders (orderDate, requiredDate, shippedDate, status) VALUES (72, 18, 76, 35)"
+DELETE FROM employees WHERE email = 12 LIMIT 1
+DELETE FROM employees WHERE firstName = 55 LIMIT 1
+"UPDATE products SET productCode = 47, productName = 73, productLine = 29, productScale = 15, productVendor = 10 WHERE productScale = 29 LIMIT 1"
+"SELECT officeCode, city, phone, addressLine1, addressLine2, state, country, postalCode, territory FROM offices LIMIT 1"
+"SELECT productCode, productName, productLine, productScale, productVendor FROM products LIMIT 1"
+"UPDATE products SET productCode = 44, productName = 10, productLine = 8, productScale = 100, productVendor = 59 WHERE productLine = 98 LIMIT 1"
+SHOW WARNINGS
+DELETE FROM payments WHERE checkNumber = 99 LIMIT 1
+"UPDATE products SET productCode = 96, productName = 99, productLine = 69, productScale = 4, productVendor = 76 WHERE productScale = 33 LIMIT 1"
+"UPDATE offices SET officeCode = 81, city = 18, phone = 39, addressLine1 = 51, addressLine2 = 18, state = 64, country = 88, postalCode = 55, territory = 45 WHERE phone = 18 LIMIT 1"
+"INSERT INTO offices (city, phone, addressLine1, addressLine2, state, country, postalCode, territory) VALUES (36, 31, 94, 25, 13, 97, 53, 44)"
+"UPDATE orderdetails SET orderNumber = 5, productCode = 43, quantityOrdered = 8, priceEach = 6 WHERE quantityOrdered = 13 LIMIT 1"
+"INSERT INTO customers (customerName, contactLastName, contactFirstName, phone) VALUES (9, 14, 13, 12)"
+DELETE FROM employees WHERE employeeNumber = 19 LIMIT 1
+"UPDATE orders SET orderNumber = 78, orderDate = 22, requiredDate = 4, shippedDate = 15, status = 86 WHERE status = 6 LIMIT 1"
+"INSERT INTO orders (orderDate, requiredDate, shippedDate, status) VALUES (51, 59, 31, 17)"
+"SELECT employeeNumber, lastName, firstName, extension, email FROM employees LIMIT 1"
+"UPDATE orders SET orderNumber = 14, orderDate = 57, requiredDate = 14, shippedDate = 99, status = 17 WHERE status = 3 LIMIT 1"
+"UPDATE products SET productCode = 96, productName = 56, productLine = 55, productScale = 4, productVendor = 54 WHERE productName = 59 LIMIT 1"
+DELETE FROM offices WHERE country = 60 LIMIT 1
+"UPDATE employees SET employeeNumber = 55, lastName = 86, firstName = 47, extension = 16, email = 93 WHERE firstName = 23 LIMIT 1"
+DELETE FROM customers WHERE contactLastName = 82 LIMIT 1
+"UPDATE payments SET customerNumber = 33, checkNumber = 36, paymentDate = 19, amount = 27 WHERE checkNumber = 99 LIMIT 1"
+"INSERT INTO products (productName, productLine, productScale, productVendor) VALUES (61, 96, 59, 60)"
+"UPDATE payments SET customerNumber = 93, checkNumber = 29, paymentDate = 99, amount = 47 WHERE checkNumber = 59 LIMIT 1"
+"SELECT productLine, textDescription FROM productlines LIMIT 1"
+"INSERT INTO orderdetails (productCode, quantityOrdered, priceEach) VALUES (45, 43, 33)"
+"UPDATE orders SET orderNumber = 75, orderDate = 51, requiredDate = 22, shippedDate = 54, status = 1 WHERE shippedDate = 65 LIMIT 1"
+"UPDATE productlines SET productLine = 24, textDescription = 47 WHERE textDescription = 22 LIMIT 1"
+"SELECT orderNumber, orderDate, requiredDate, shippedDate, status FROM orders LIMIT 1"
+DELETE FROM employees WHERE extension = 76 LIMIT 1
+DELETE FROM payments WHERE customerNumber = 26 LIMIT 1
+"INSERT INTO orderdetails (productCode, quantityOrdered, priceEach) VALUES (49, 45, 58)"
+"INSERT INTO products (productName, productLine, productScale, productVendor) VALUES (86, 13, 33, 82)"
+"INSERT INTO products (productName, productLine, productScale, productVendor) VALUES (64, 88, 22, 11)"
+"SELECT productCode, productName, productLine, productScale, productVendor FROM products LIMIT 1"
+DELETE FROM offices WHERE phone = 99 LIMIT 1
+"INSERT INTO customers (customerName, contactLastName, contactFirstName, phone) VALUES (88, 24, 24, 80)"
+"SELECT customerNumber, customerName, contactLastName, contactFirstName, phone FROM customers LIMIT 1"
+"INSERT INTO products (productName, productLine, productScale, productVendor) VALUES (84, 28, 7, 1)"
+"INSERT INTO orders (orderDate, requiredDate, shippedDate, status) VALUES (21, 38, 93, 76)"
+"UPDATE employees SET employeeNumber = 78, lastName = 45, firstName = 77, extension = 7, email = 73 WHERE extension = 75 LIMIT 1"
+"UPDATE customers SET customerNumber = 58, customerName = 44, contactLastName = 19, contactFirstName = 14, phone = 85 WHERE phone = 11 LIMIT 1"
+DELETE FROM offices WHERE territory = 65 LIMIT 1
+"SELECT officeCode, city, phone, addressLine1, addressLine2, state, country, postalCode, territory FROM offices LIMIT 1"
+DELETE FROM customers WHERE contactFirstName = 84 LIMIT 1
+"SELECT customerNumber, customerName, contactLastName, contactFirstName, phone FROM customers LIMIT 1"
+"UPDATE customers SET customerNumber = 76, customerName = 64, contactLastName = 23, contactFirstName = 88, phone = 27 WHERE phone = 56 LIMIT 1"
+"SELECT officeCode, city, phone, addressLine1, addressLine2, state, country, postalCode, territory FROM offices LIMIT 1"
+DELETE FROM employees WHERE email = 64 LIMIT 1
+DELETE FROM productlines WHERE textDescription = 78 LIMIT 1
+DELETE FROM productlines WHERE textDescription = 66 LIMIT 1
+"SELECT customerNumber, customerName, contactLastName, contactFirstName, phone FROM customers LIMIT 1"
+"INSERT INTO offices (city, phone, addressLine1, addressLine2, state, country, postalCode, territory) VALUES (54, 81, 6, 3, 65, 44, 67, 74)"
+DELETE FROM orderdetails WHERE priceEach = 26 LIMIT 1
+"UPDATE productlines SET productLine = 12, textDescription = 38 WHERE productLine = 92 LIMIT 1"
+"UPDATE orderdetails SET orderNumber = 47, productCode = 93, quantityOrdered = 21, priceEach = 59 WHERE priceEach = 67 LIMIT 1"
+"SELECT officeCode, city, phone, addressLine1, addressLine2, state, country, postalCode, territory FROM offices LIMIT 1"
+"UPDATE products SET productCode = 100, productName = 87, productLine = 79, productScale = 84, productVendor = 42 WHERE productLine = 7 LIMIT 1"
+SHOW WARNINGS
+"SELECT orderNumber, orderDate, requiredDate, shippedDate, status FROM orders LIMIT 1"
+"INSERT INTO offices (city, phone, addressLine1, addressLine2, state, country, postalCode, territory) VALUES (95, 81, 33, 95, 72, 21, 62, 90)"
+DELETE FROM customers WHERE phone = 78 LIMIT 1
+"INSERT INTO employees (lastName, firstName, extension, email) VALUES (35, 36, 67, 13)"
+"INSERT INTO payments (checkNumber, paymentDate, amount) VALUES (88, 67, 54)"
+"SELECT productLine, textDescription FROM productlines LIMIT 1"
+DELETE FROM customers WHERE contactFirstName = 13 LIMIT 1
+"UPDATE customers SET customerNumber = 28, customerName = 44, contactLastName = 28, contactFirstName = 16, phone = 78 WHERE customerNumber = 20 LIMIT 1"
+DELETE FROM orders WHERE orderNumber = 69 LIMIT 1
+DELETE FROM orderdetails WHERE quantityOrdered = 14 LIMIT 1
+"SELECT productLine, textDescription FROM productlines LIMIT 1"
+"INSERT INTO orderdetails (productCode, quantityOrdered, priceEach) VALUES (68, 91, 50)"
+"SELECT orderNumber, orderDate, requiredDate, shippedDate, status FROM orders LIMIT 1"
+DELETE FROM offices WHERE postalCode = 54 LIMIT 1
+"SELECT employeeNumber, lastName, firstName, extension, email FROM employees LIMIT 1"
+"UPDATE orderdetails SET orderNumber = 90, productCode = 50, quantityOrdered = 34, priceEach = 32 WHERE quantityOrdered = 78 LIMIT 1"
+"UPDATE orders SET orderNumber = 42, orderDate = 7, requiredDate = 21, shippedDate = 11, status = 10 WHERE orderNumber = 31 LIMIT 1"
+"UPDATE payments SET customerNumber = 3, checkNumber = 49, paymentDate = 90, amount = 72 WHERE checkNumber = 28 LIMIT 1"
+"SELECT productCode, productName, productLine, productScale, productVendor FROM products LIMIT 1"
+"UPDATE payments SET customerNumber = 40, checkNumber = 70, paymentDate = 93, amount = 49 WHERE amount = 45 LIMIT 1"
+"SELECT customerNumber, checkNumber, paymentDate, amount FROM payments LIMIT 1"
+"UPDATE productlines SET productLine = 85, textDescription = 61 WHERE productLine = 60 LIMIT 1"
+"UPDATE products SET productCode = 100, productName = 59, productLine = 65, productScale = 9, productVendor = 89 WHERE productName = 76 LIMIT 1"
+"UPDATE orders SET orderNumber = 43, orderDate = 16, requiredDate = 30, shippedDate = 33, status = 96 WHERE orderNumber = 52 LIMIT 1"
+"SELECT orderNumber, orderDate, requiredDate, shippedDate, status FROM orders LIMIT 1"
+"SELECT employeeNumber, lastName, firstName, extension, email FROM employees LIMIT 1"
+"UPDATE productlines SET productLine = 40, textDescription = 44 WHERE textDescription = 23 LIMIT 1"
+"INSERT INTO employees (lastName, firstName, extension, email) VALUES (72, 46, 65, 80)"
+DELETE FROM productlines WHERE textDescription = 85 LIMIT 1
+DELETE FROM productlines WHERE productLine = 6 LIMIT 1
+DELETE FROM customers WHERE phone = 48 LIMIT 1
+"INSERT INTO orders (orderDate, requiredDate, shippedDate, status) VALUES (8, 67, 25, 65)"
+DELETE FROM productlines WHERE productLine = 92 LIMIT 1
+DELETE FROM products WHERE productScale = 83 LIMIT 1
+"SELECT productLine, textDescription FROM productlines LIMIT 1"
+"UPDATE payments SET customerNumber = 87, checkNumber = 31, paymentDate = 61, amount = 27 WHERE amount = 66 LIMIT 1"
+"UPDATE employees SET employeeNumber = 69, lastName = 84, firstName = 68, extension = 12, email = 72 WHERE email = 10 LIMIT 1"
+"INSERT INTO customers (customerName, contactLastName, contactFirstName, phone) VALUES (65, 75, 69, 15)"
+"SELECT productCode, productName, productLine, productScale, productVendor FROM products LIMIT 1"
+INSERT INTO productlines (textDescription) VALUES (96)
+"INSERT INTO orderdetails (productCode, quantityOrdered, priceEach) VALUES (53, 14, 10)"
+"INSERT INTO orderdetails (productCode, quantityOrdered, priceEach) VALUES (34, 10, 64)"
+"INSERT INTO products (productName, productLine, productScale, productVendor) VALUES (25, 52, 5, 67)"
+"SELECT orderNumber, productCode, quantityOrdered, priceEach FROM orderdetails LIMIT 1"
+"SELECT productLine, textDescription FROM productlines LIMIT 1"
+"SELECT officeCode, city, phone, addressLine1, addressLine2, state, country, postalCode, territory FROM offices LIMIT 1"
+DELETE FROM offices WHERE state = 100 LIMIT 1
+DELETE FROM employees WHERE email = 61 LIMIT 1
+DELETE FROM payments WHERE amount = 61 LIMIT 1
+"SELECT customerNumber, checkNumber, paymentDate, amount FROM payments LIMIT 1"
+"UPDATE payments SET customerNumber = 98, checkNumber = 16, paymentDate = 35, amount = 31 WHERE checkNumber = 18 LIMIT 1"
+"UPDATE payments SET customerNumber = 99, checkNumber = 13, paymentDate = 99, amount = 13 WHERE amount = 68 LIMIT 1"
+"SELECT productCode, productName, productLine, productScale, productVendor FROM products LIMIT 1"
+"UPDATE customers SET customerNumber = 94, customerName = 54, contactLastName = 25, contactFirstName = 34, phone = 7 WHERE customerNumber = 16 LIMIT 1"
+"SELECT customerNumber, checkNumber, paymentDate, amount FROM payments LIMIT 1"
+"INSERT INTO payments (checkNumber, paymentDate, amount) VALUES (3, 17, 61)"
+DELETE FROM customers WHERE contactFirstName = 40 LIMIT 1
+"UPDATE payments SET customerNumber = 59, checkNumber = 49, paymentDate = 86, amount = 83 WHERE amount = 14 LIMIT 1"
+"SELECT employeeNumber, lastName, firstName, extension, email FROM employees LIMIT 1"
+"INSERT INTO offices (city, phone, addressLine1, addressLine2, state, country, postalCode, territory) VALUES (56, 75, 98, 2, 67, 94, 98, 16)"
+"INSERT INTO orderdetails (productCode, quantityOrdered, priceEach) VALUES (23, 76, 79)"
+DELETE FROM productlines WHERE textDescription = 44 LIMIT 1
+DELETE FROM customers WHERE customerNumber = 1 LIMIT 1
+"SELECT productCode, productName, productLine, productScale, productVendor FROM products LIMIT 1"
+"INSERT INTO orders (orderDate, requiredDate, shippedDate, status) VALUES (52, 74, 29, 81)"
+DELETE FROM customers WHERE customerNumber = 74 LIMIT 1
+DELETE FROM productlines WHERE textDescription = 34 LIMIT 1
+"SELECT customerNumber, customerName, contactLastName, contactFirstName, phone FROM customers LIMIT 1"
+"UPDATE orderdetails SET orderNumber = 34, productCode = 45, quantityOrdered = 80, priceEach = 71 WHERE productCode = 71 LIMIT 1"
+"INSERT INTO customers (customerName, contactLastName, contactFirstName, phone) VALUES (88, 16, 68, 57)"
+"INSERT INTO customers (customerName, contactLastName, contactFirstName, phone) VALUES (79, 43, 8, 72)"
+"INSERT INTO employees (lastName, firstName, extension, email) VALUES (8, 31, 62, 91)"
+"INSERT INTO orders (orderDate, requiredDate, shippedDate, status) VALUES (14, 54, 51, 1)"
+"UPDATE offices SET officeCode = 82, city = 38, phone = 46, addressLine1 = 70, addressLine2 = 6, state = 80, country = 71, postalCode = 17, territory = 96 WHERE country = 27 LIMIT 1"
+"SELECT orderNumber, productCode, quantityOrdered, priceEach FROM orderdetails LIMIT 1"
+"UPDATE orderdetails SET orderNumber = 95, productCode = 18, quantityOrdered = 83, priceEach = 30 WHERE productCode = 83 LIMIT 1"
+"SELECT customerNumber, checkNumber, paymentDate, amount FROM payments LIMIT 1"
+"INSERT INTO offices (city, phone, addressLine1, addressLine2, state, country, postalCode, territory) VALUES (69, 87, 53, 58, 64, 43, 88, 13)"
+"SELECT productLine, textDescription FROM productlines LIMIT 1"
+DELETE FROM employees WHERE email = 6 LIMIT 1
+"UPDATE offices SET officeCode = 37, city = 58, phone = 32, addressLine1 = 88, addressLine2 = 39, state = 31, country = 67, postalCode = 61, territory = 100 WHERE state = 39 LIMIT 1"
+"SELECT productLine, textDescription FROM productlines LIMIT 1"
